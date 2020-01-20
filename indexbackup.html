@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Smart Parking System</title>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<div id="auto">
+
+
+</div>
+
+
+<script type="text/javascript">
+	$(document).ready( function() {
+	$('#auto').load('seat.php');
+	refresh();
+
+});
+
+function refresh() {
+	setTimeout(function() {
+		$('#auto').load('seat.php');
+		refresh();	
+	},200);
+
+}
+
+</script>
+</body>
