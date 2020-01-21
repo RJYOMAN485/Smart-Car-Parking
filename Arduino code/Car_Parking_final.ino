@@ -32,8 +32,8 @@
 #define SECRET_SSID "Redmi"    // replace MySSID with your WiFi network name
 #define SECRET_PASS "rajendra"  // replace MyPassword with your WiFi password
 
-#define SECRET_CH_ID 914849     // replace 0000000 with your channel number
-#define SECRET_WRITE_APIKEY "8E1PBKJFQ3CQZ932"
+#define SECRET_CH_ID 000000     // replace 000000 with your channel number
+#define SECRET_WRITE_APIKEY "8E1PBKJFQ3RYC932" // replace your API KEY
 float duration, distance;
 
 //int LED = D3;
